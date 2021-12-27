@@ -1,0 +1,28 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#sliding-images {
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#next {
+    position: absolute;
+    margin-left: 80%;
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.1;
+}
+#previous {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.1;
+}
